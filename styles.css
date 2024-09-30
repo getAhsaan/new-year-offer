@@ -98,3 +98,33 @@ body {
     color: white;
     margin-top: 0;
 }
+
+/* offer section  */
+.offer-section{
+
+}
+.offer-container{
+    width: 800px;
+    height: 800px;
+    margin: 100px auto;
+}
+.offer-container h1{
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0;
+}
+.offer-container h4{
+    font-size: 24px;
+    color: #FF0000;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.offer-container h2{
+    font-size: 48px;
+    color: #070211;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
