@@ -1,41 +1,51 @@
-body{
-    font-family: "Open Sans", sans-serif;
+body {
+    font-family: "Merriweather", serif;
 }
-.menu-bar{
+
+/* menu bar styles  */
+.menu-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 40px;
+    margin: 0 100px;
 }
-.menu-bar .menu-title{
+
+.menu-bar .menu-title {
     font-size: 40px;
 }
-.menu-bar .menu-title:hover{
+
+.menu-bar .menu-title:hover {
     color: chocolate;
     cursor: pointer;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
     align-items: center;
 }
-.nav-bar>ul{
+
+.nav-bar>ul {
     display: flex;
 }
-.menu-bar li{
+
+.menu-bar li {
     list-style: none;
     margin-right: 30px;
 }
-.menu-bar li a{
+
+.menu-bar li a {
     text-decoration: none;
     font-size: 28px;
     padding: 10px 15px;
 }
-.menu-bar li a:hover{
- background-color: chocolate;
- color: white;
- border-radius: 30px;
+
+.menu-bar li a:hover {
+    background-color: chocolate;
+    color: white;
+    border-radius: 30px;
 }
-.menu-btn{
+
+.menu-btn {
     border: 0;
     font-size: 24px;
     padding: 10px 15px;
@@ -44,7 +54,47 @@ body{
     font-style: italic;
     border-radius: 30px;
 }
-.menu-btn:hover{
+
+.menu-btn:hover {
     background-color: rgb(121, 53, 5);
     cursor: pointer;
+}
+
+/* main section styles  */
+.banner-section{
+    display: flex;
+    justify-content: center;
+}
+.new-year-container {
+    background-image: url(images/banner-image.png);
+    background-repeat: no-repeat;
+}
+
+.happy-new-year {   
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.new-year-text {
+    padding: 50px 200px;
+    text-align: center;
+   
+
+}
+
+.happy-new-year h4 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.happy-new-year h2 {
+    font-size: 72px;
+    color: white;
+    margin-top: 0;
 }
