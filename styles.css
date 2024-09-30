@@ -61,29 +61,30 @@ body {
 }
 
 /* main section styles  */
-.banner-section{
+.banner-section {
     display: flex;
     justify-content: center;
 }
+
 .new-year-container {
     background-image: url(images/banner-image.png);
     background-repeat: no-repeat;
 }
 
-.happy-new-year {   
+.happy-new-year {
     width: 1320px;
     height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
 }
 
 .new-year-text {
     padding: 50px 200px;
     text-align: center;
-   
+
 
 }
 
@@ -99,16 +100,14 @@ body {
     margin-top: 0;
 }
 
-/* offer section  */
-.offer-section{
-
-}
-.offer-container{
+/* offer section styles  */
+.offer-container {
     width: 800px;
     height: 800px;
     margin: 100px auto;
 }
-.offer-container h1{
+
+.offer-container h1 {
     font-size: 88px;
     color: #FF0000;
     font-weight: bold;
@@ -116,15 +115,66 @@ body {
     font-family: "Inter", sans-serif;
     margin-bottom: 0;
 }
-.offer-container h4{
+
+.offer-container h4 {
     font-size: 24px;
     color: #FF0000;
     text-align: center;
     font-family: "Inter", sans-serif;
 }
-.offer-container h2{
+
+.offer-container h2 {
     font-size: 48px;
     color: #070211;
     text-align: center;
     font-family: "Inter", sans-serif;
+}
+
+/* party section styles */
+.party-section {
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+.party-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1320px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-container {
+    margin-left: 120px;
+    padding-right: 200px;
+}
+.text-container h1 {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 0;
+}
+.text-container p {
+    font-size: 18px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.text-container button {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+}
+.text-container button:hover {
+ cursor: pointer;
+ background: #FF0000;
+ border-radius: 15px;
+}
+.picture-container {
+    margin-right: 120px;
 }
