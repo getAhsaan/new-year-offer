@@ -15,7 +15,7 @@ body {
 }
 
 .menu-bar .menu-title:hover {
-    color: chocolate;
+    color: #FF0000;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .menu-bar li a:hover {
-    background-color: chocolate;
+    background-color: #FF0000;
     color: white;
     border-radius: 30px;
 }
@@ -49,15 +49,17 @@ body {
     border: 0;
     font-size: 24px;
     padding: 10px 15px;
-    background-color: chocolate;
-    color: white;
+    background: none;
+
+    color: #FF0000;
     font-style: italic;
     border-radius: 30px;
 }
 
 .menu-btn:hover {
-    background-color: rgb(121, 53, 5);
+    background-color: #FF0000;
     cursor: pointer;
+    color: white;
 }
 
 /* main section styles  */
@@ -77,7 +79,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgba(7, 2, 17) 0%, rgb(7, 2, 17, 0.1) 100%);
+    width: 1320px;
     border-radius: 20px;
 }
 
@@ -138,8 +141,9 @@ body {
     height: 600px;
     margin: 0 auto;
 }
+
 .party-container {
-    background-color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, rgba(7, 2, 17) 0%, rgb(7, 2, 17, 0.1) 100%);
     width: 1320px;
     height: 600px;
     border-radius: 15px;
@@ -147,20 +151,24 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .text-container {
     margin-left: 120px;
     padding-right: 200px;
 }
+
 .text-container h1 {
     font-size: 64px;
     color: white;
     margin-bottom: 0;
 }
+
 .text-container p {
     font-size: 18px;
     color: white;
     font-family: "Inter", sans-serif;
 }
+
 .text-container button {
     font-size: 20px;
     font-family: "Inter", sans-serif;
@@ -170,11 +178,62 @@ body {
     color: white;
     padding: 10px 15px;
 }
+
 .text-container button:hover {
- cursor: pointer;
- background: #FF0000;
- border-radius: 15px;
+    cursor: pointer;
+    background: #FF0000;
+    border-radius: 15px;
 }
+
 .picture-container {
     margin-right: 120px;
+}
+
+/* location section styles */
+.location-section{
+    margin: 100px 0;
+}
+.location-container {
+    background: linear-gradient(to bottom, rgb(255, 0, 0, 0.1) 10%, rgba(255, 255, 255) 100%);
+    width: 1320px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.location-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    margin: 15px;
+}
+
+.location-container h2>span {
+    color: #FF0000;
+}
+
+.location-container button {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    background-color: #FF0000;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.location-container button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.location-container div {
+    text-align: center;
 }
