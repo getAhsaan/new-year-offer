@@ -360,3 +360,35 @@ body {
     z-index: -1;
     top: 300px;
 }
+
+/* portfolio section styles  */
+.portfolio-section{
+    width: 1320px;
+    margin: 0 auto;
+}
+.portfolio-text-container{
+    width: 70%;
+}
+.portfolio-text-container h4{
+    font-size: 24px;
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+.portfolio-text-container h1{
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.portfolio-text-container p{
+    font-size: 20px;
+    opacity: 0.6;
+}
+.portfolio-gallery-container{
+    margin-top: 50px;
+}
+.portfolio-gallery-container img{
+margin-right: 10px;
+margin-bottom: 10px;    
+}
